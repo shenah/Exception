@@ -3,7 +3,7 @@ package object;
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+
 		Car car1  = new Car();
 		car1.setModelName("그랜져");
 		car1.setDisplacement(2400);
@@ -20,7 +20,6 @@ public class Main {
 		car2.setPrice(2900);
 		
 		System.out.println(car1 == car2);
-		System.out.println(car1.equals(car2));
 		System.out.println(car1.equals(car2));
 
 	}
